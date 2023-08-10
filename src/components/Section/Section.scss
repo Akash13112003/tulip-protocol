@@ -1,0 +1,57 @@
+.head{
+    color:white !important;
+    font-size: 50px;
+    font-weight: 1000 !important;
+    line-height: 130%;
+    margin: 0 auto 16px;
+    padding: 0 24px;
+    font-feature-settings: normal !important;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,system-ui,Roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif !important;
+}
+.card-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .card-wrapper {
+    display: flex;
+    justify-content:left;
+    width: 100%;
+  }
+  
+  .card {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 18px;
+    height:300px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background: radial-gradient(circle, #3e7272,#369494 ,#22b6b6,#000000);
+    }
+  
+    .card-heading {
+    text-align: left !important;
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+  
+    .card-details {
+      text-align: left !important;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+  
+  
+h4{
+    font-size: 14px !important;
+    font-weight: 700;
+    line-height: 130%;
+    margin: 0 auto 16px !important;
+    text-transform: uppercase;
+}

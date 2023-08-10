@@ -1,0 +1,117 @@
+@import "../../css-config/mixins.scss";
+.footer {
+    width: 100%;
+    background-color: #010609;
+    .footer-content {
+        padding: 50px 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: wrap;
+        gap: 10px;
+        @include md {
+            justify-content: space-evenly;
+            padding: 50px 0;
+        }
+        .col {
+            max-width: 300px;
+            &:nth-child(3) {
+                width: 150px;
+                @include md {
+                    width: auto;
+                }
+            }
+            h1{
+                font-size:30px !important;
+                margin:10px;
+                height: 40px;
+            }
+            .img{
+                border:0.1px solid white;
+                background-color: black;
+                margin-top:60px;
+                padding-top: 15px;
+                border-radius:6px;
+                height: 50px;
+                color:white;
+                text-align: center !important;
+            }
+            .title {
+                color:white;
+                margin-bottom: 20px;
+                font-size: 17px;
+            }
+            .text {
+                color: grey;
+                font-size: 14px;
+            }
+            .c-item {
+                display: flex;
+                margin-bottom: 10px;
+                svg {
+                    flex-shrink: 0;
+                    font-size: 14px;
+                    margin-right: 10px;
+                    margin-top: 4px;
+                    color: white;
+                }
+            }
+            span {
+                &.text {
+                    display: block;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .bottom-bar {
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        .bottom-bar-content {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            font-size: 12px;
+            padding: 16px 40px;
+            gap: 40px !important;
+            @include md {
+                padding: 0;
+                height: 60px;
+                max-width: 1200px;
+                margin-left:30px;
+                flex-direction: row;
+                justify-content: space-between;
+                text-align: center;
+                font-size: 12px;
+                padding: 16px 60px;
+                padding-left: 180px;
+                gap: 40px !important;
+            }
+            span{
+                padding: 10px;
+                font-size: 15px !important;
+            }
+            a{
+                padding: 20px;
+                color:grey;
+                font-size:15px;
+                text-decoration: none;
+            }
+
+            .text {
+                font-size: 12px;
+                color: white
+            }
+            .mail{
+                background-color: white;
+                width: 90px;
+                padding: 10px;
+                border-radius: 50px;
+                cursor: pointer;
+
+            }
+        }
+    }
+}

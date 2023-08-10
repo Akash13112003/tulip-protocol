@@ -1,0 +1,121 @@
+.head{
+    color:white !important;
+    font-size: 50px;
+    font-weight: 1000 !important;
+    line-height: 130%;
+    margin: 0 auto 16px;
+    padding: 0 24px;
+    font-feature-settings: normal !important;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,system-ui,Roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif !important;
+}
+.gradient-text-white[data-v-8e81f31c] {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#ebedee,hsla(200,8%,93%,.5));
+    -webkit-background-clip: text;
+}
+.cta.card{
+    grid-template-columns: repeat(3,1fr) !important;
+    display: grid;
+    gap: 24px;
+    margin: 0 auto;
+    padding: 0 24px;
+    border:0cm;
+    background-image: none;
+    border-radius: 20px;
+    list-style: none;
+
+    li{
+        box-sizing: border-box;
+        border-radius: 20px;
+        display: flex;
+        font-weight: 700;
+        min-height: 304px;
+        border: 0px solid white;
+        padding: 0px !important;
+        position: relative;
+        white-space: pre-line;
+        border:1px solid white !important;
+        width: 100%;
+        z-index: 0;
+        text-align: -webkit-match-parent;
+    .icon{
+        bottom: 40px;
+        position: absolute;
+        right: 40px;
+        display: block;
+    }
+    }
+    button{
+        text-align: left;
+        color:white;
+        width:150%;
+        border-radius: 12px;
+        --transition-duration: 0.75s;
+        --button-x: 1042px;
+        --button-y: 555px;
+        font-size: 20px !important;
+        text-transform: none;
+        background-color: transparent;
+        background-image: none;
+        cursor:pointer
+    }
+    span{
+        padding:10px;
+        text-align: start !important;
+    }
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 24px;
+}
+.dark{
+    margin-top: 104px;
+    width:auto;
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    border:solid rgba(30,198,212,0.989233193277311) 1px;
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    transition: background-color 2s ease-out;
+
+    &:hover{
+        background: radial-gradient(circle, #000000, #000000, #000000,#3e7272,#369494 ,#22b6b6,#000000);
+    }
+    h2{
+        padding-bottom: 20px;
+    }
+    h4{
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 130%;
+        margin: 0 auto 16px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    li{
+        list-style: none;
+        a{
+            -webkit-border-radius: 28;
+            -moz-border-radius: 28;
+            border-radius: 28px;
+            font-family: 'Times New Roman';
+            color: rgba(30,198,212,0.989233193277311);
+            font-size: 17px;
+            background: black;
+            padding: 10px 20px 10px 20px;
+            border:solid rgba(30,198,212,0.989233193277311) 1px;
+            text-decoration: none;
+            cursor: pointer;
+            &:hover{
+                background-color: rgba(30,198,212,0.989233193277311);
+                color:black;
+                
+            }
+        }
+    }
+}

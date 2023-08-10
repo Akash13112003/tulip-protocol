@@ -1,0 +1,61 @@
+.about-container {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ebedee;
+    color: #010609;
+    width: 100% !important;
+    justify-content: left;
+    margin:0px 0px 0px 0px !important;
+
+    h2{
+      font-size:40px;
+      margin-bottom:56px;
+      font-weight: 700;
+    line-height: 130%;
+    margin: 0 auto 16px;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,system-ui,Roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+    }
+    h3{
+      font-size: 24px;
+    font-weight: 700;
+    line-height: 130%;
+    margin-bottom: 24px;
+    }
+    
+    span{
+      color: #43484d;
+      display: block;
+      font-size: 14px;
+      font-weight: 600;
+      margin: 0 auto 16px;
+      text-transform: uppercase;
+      text-align: left !important;
+      justify-content: left !important;
+      
+    }
+    .cont{
+      padding-top: 0px;
+      border-bottom: 1px solid #43484d;
+      padding-bottom: 20px;
+      font-family: Poppins,-apple-system,BlinkMacSystemFont,system-ui,Roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+    
+    }
+  
+    p {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #43484d;
+    font-weight: 300;
+    }
+  
+    strong {
+      color: black;
+      font-weight: bold;
+    }
+  
+    hr {
+      border: 1px solid grey;
+      margin: 20px 0;
+    }
+  }
+  

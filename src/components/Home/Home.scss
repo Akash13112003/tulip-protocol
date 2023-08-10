@@ -1,0 +1,19 @@
+@import "../../css-config/mixins.scss";
+section{
+    background-color: #ebedee;
+    padding:104px;
+    justify-content: left !important;
+
+}
+.main{
+    background-color: black;
+}
+.main-content {
+    .layout {
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        @include md {
+            max-width: 1200px;
+        }
+    }
+}

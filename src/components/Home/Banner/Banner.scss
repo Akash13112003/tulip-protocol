@@ -1,0 +1,108 @@
+@import "../../../css-config/mixins.scss";
+.hero-banner {
+    padding: 40px 0;
+    position: relative;
+    background: rgb(56, 217, 231);
+    background: linear-gradient(150deg, rgba(30,198,212,0.989233193277311) 0%, black 34%, black 100%);
+    @include md {
+        height: calc(100vh - 80px);
+    }
+    .content {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        flex-direction: column-reverse;
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        position: relative;
+        @include md {
+            flex-direction: row;
+            max-width: 1200px;
+        }
+        .text-content {
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            @include md {
+                position: absolute;
+                left: 50px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            @include xxl {
+                left: 0;
+            }
+            h1 {
+                strong{
+                    background: rgb(30,198,212);
+                    background: linear-gradient(128deg, rgba(30,198,212,0.989233193277311) 0%, rgba(231,230,218,0.9752275910364145) 48%, rgba(196,242,250,1) 100%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+                position:relative;
+                font-size: 74px;
+                font-weight: 700;
+                line-height: 1;
+                text-align: center !important;
+                color: white;
+                margin-bottom: 20px;
+                font-family: Poppins,-apple-system,BlinkMacSystemFont,system-ui,Roboto,Helvetica Neue,Segoe UI,Apple SD Gothic Neo,Noto Sans KR,Malgun Gothic,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,sans-serif;
+                @include md {
+                    font-size: 74px;
+                    font-weight: 700;
+                }
+            }
+            p {
+                max-width: 1000px;
+                font-size: 14px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                @include md {
+                    max-width: 500px;
+                    font-size: 18px;
+                    line-height: 24px;
+                    margin-bottom: 40px;
+                }
+            }
+            .ctas {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                .banner-cta {
+                    -webkit-border-radius: 28;
+                    -moz-border-radius: 28;
+                     border-radius: 28px;
+                    font-family: 'Times New Roman';
+                    color: #05f0f0;
+                    background: black;
+                    border:solid #05f0f0 1px;
+                    text-decoration: none;
+                    font-size: 17px;
+                    font-weight: 500;
+                    min-width: 160px;
+                    padding: 10px 20px;
+                    cursor: pointer;
+                    &.v2 {
+                        color: white;
+                        background: black;
+                        border:solid white 1px;
+                        text-decoration: none;
+                          &:hover{
+                            background: white;
+                            text-decoration: none;
+                            color:black;
+                           }
+                    }
+                    &:hover {
+                        background: #05f0f0;
+                        text-decoration: none;
+                         color:black;
+                    }
+                }
+            }
+        }
+    }
+}
